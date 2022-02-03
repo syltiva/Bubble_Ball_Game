@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oOo BUBBLE BALL oOo</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<header>
+    <span>
+    <div id="blurb">
+        <h1>BUBBLE BALL</h1>
+        <p>Tired? Is your back breaking from coding all day? Does your brain feel bogged down from debugging? Take a couple minutes to escape into an
+            underwater oasis and venture into some blissful, beaming, bubbly, badass-ness. The game is simple:</p><b>goal:</b> get your ball onto
+        the target platform</p><p><b>to play:</b> <br><b><</b> -- left arrow propels the ball to the left<br><b>></b> -- right arrow propels the
+            ball to the right<br><b>^</b> -- up arrow propels the ball upward<br></p>
+            <p>You can only move the ball when it is in the shaded paths of where the propellers point. Maneuver around the bubbles
+                to get to the platform and win the game! There's no score or times limit-- so relax and take a break with Bubble Ball!</p>
+    </div>
+</span>
+</header>
+
+<body>
+    <div>
+
+        <div> 
+            <style>
+                button {
+                    color: white;
+                    background-color: rgba(14, 102, 85, 0.5);
+                    border: 3px dotted rgb(14, 102, 85);
+                    width: 610px;
+                    height: 25px;
+                    font-weight: bold;
+                    text-shadow: 1px 1px rgb(133, 193, 233);
+                    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+                    border-radius: 5px;
+                    
+                }
+
+                embed {
+                    display: none;
+                }
+
+                #button:active+embed {
+                    display: block;
+                }
+            </style>
+
+            <button id="button">Start Game</button>
+
+
+            <embed src="./Jungle - Casio.mp3" />
+        </div>
+
+        <canvas id="canvas" width="600" height="800"></canvas>
+
+
+        <script src="./main.js"></script>
+    </div>
+</body>
+
+</html>
